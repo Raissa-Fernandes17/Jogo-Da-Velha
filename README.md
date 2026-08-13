@@ -1,50 +1,59 @@
-# Welcome to your Expo app 👋
+# 🎮 Jogo da Velha
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Um aplicativo de **Jogo da Velha (Tic-Tac-Toe)** desenvolvido em **React Native** com **TypeScript**.
 
-## Get started
+O projeto foi criado como atividade prática para trabalhar conceitos de desenvolvimento mobile, componentes, estados e lógica de programação.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 📱 Sobre o projeto
 
-2. Start the app
+O aplicativo permite que dois jogadores joguem uma partida de Jogo da Velha no mesmo dispositivo.
 
-   ```bash
-   npx expo start
-   ```
+O jogador **X** começa a partida e os jogadores alternam as jogadas até que:
 
-In the output, you'll find options to open the app in a
+- 🏆 Um jogador complete uma combinação vencedora;
+- 🤝 Todas as casas sejam preenchidas, resultando em empate;
+- 🔄 O jogador escolha iniciar uma nova partida.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## ✨ Funcionalidades
 
-## Get a fresh project
+- 🎮 Tabuleiro 3x3
+- ❌ Jogador X
+- ⭕ Jogador O
+- 🏆 Verificação automática de vitória
+- 🤝 Identificação de empate
+- 🔄 Botão para iniciar uma nova partida
+- 🧹 Botão para limpar o placar
+- 📊 Placar de vitórias e empates
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## 🧠 Tecnologias utilizadas
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- React Native
+- TypeScript
+- React
+- Expo
+- JavaScript/TypeScript
+- Hooks do React
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📂 Estrutura principal
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```text
+JogoDaVelha/
+│
+├── app/
+│   └── index.tsx
+│
+├── assets/
+│
+├── package.json
+│
+├── tsconfig.json
+│
+└── README.md
