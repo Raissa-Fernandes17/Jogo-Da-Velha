@@ -56,4 +56,8 @@ JogoDaVelha/
 │
 ├── tsconfig.json
 │
+<<<<<<< HEAD
 └── README.md
+=======
+└── README.md
+>>>>>>> ee82de6f5ba4ab1186b51197624b783479123fd7
