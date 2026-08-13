@@ -28,10 +28,6 @@ O jogador **X** começa a partida e os jogadores alternam as jogadas até que:
 - 🔄 Botão para iniciar uma nova partida
 - 🧹 Botão para limpar o placar
 - 📊 Placar de vitórias e empates
-- ✨ Destaque das casas vencedoras
-- 🎨 Interface estilizada em preto e rosa
-- 📱 Layout responsivo para diferentes tamanhos de tela
-- 🎬 Animação ao realizar uma jogada
 
 ---
 
